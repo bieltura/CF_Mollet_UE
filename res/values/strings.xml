@@ -1,0 +1,127 @@
+<resources>
+
+    <!-- App String related -->
+    <string name="app_name">CF Mollet UE</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_official">Aplicació mòbil oficial</string>
+    <string name="valorar">Valorar la app</string>
+
+
+    <!-- Descargues -->
+    <string name="error">Hi ha hagut un error en la descàrrega. \nReenviant a la pàgina web ...</string>
+    <string name="errorTaula">Encara no es pot accedir correctament als Partits</string>
+    <string name="carregant">Carregant...</string>
+    <string name="descarregant">Descarregant...</string>
+
+
+    <!-- Main Activity -->
+    <string name="partits">Partits</string>
+    <string name="noticies">Notícies</string>
+    <string name="croniques">Cròniques</string>
+    <string name="himne">Himne</string>
+    <string name="comunicacio">Comunicació</string>
+    <string name="contactar">Contactar</string>
+    <string name="compartir">Compartir</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <!-- Partits Fragment -->
+    <string name="seleccionar">Seleccioni l\'equip:</string>
+    <string name="local">LOCAL</string>
+    <string name="visitant">VISITANT</string>
+    <string name="jornada">ÚLTIMA JORNADA</string>
+    <string name="classificacio">CLASSIFICACIÓ</string>
+    <string name="calendari">CALENDARI</string>
+    <string name="horari">\u0020-\u0020</string>
+
+    <string-array name="tipus_futbol">
+        <item>FUTBOL 11</item>
+        <item>FUTBOL 7</item>
+        <item>FEMENÍ</item>
+    </string-array>
+
+
+    <!-- FCF Activity -->
+    <string name="fcf">Federació Catalana</string>
+    <string-array name="seccio_fcf">
+        <item>Resultats</item>
+        <item>Classificació</item>
+        <item>Calendari</item>
+    </string-array>
+
+
+    <!-- Himne Fragment -->
+    <string name="himne_lletra">
+        Ja fa cent anys que duus el nom de la ciutat,				\n
+		ja fa cent anys, Mollet, lluitant per tots els camps.		\n
+		Són blanc i vermell											\n
+		els teus colors,											\n
+		símbols de puresa i de passió!								\n
+																	\n
+		Recordant aquells llunyans diumenges						\n
+		sol i pols, cridòria, animació								\n
+		de la mà del pare a Les Pruneres							\n
+		de petits creant afició!									\n
+																	\n
+		Des dels inicis lluint esportivitat							\n
+		dels jugadors presents i els sempre recordats,				\n
+		celebrem tots junts,										\n
+		el Baix Vallès.												\n
+		Au Mollet, per cent anys i molts més!						\n
+																	\n
+		Amb esforç has aconseguit donar-nos							\n
+		una fita a l’abast de molt pocs,						    \n
+		centenaris són els teus princpis							\n
+		i un exemple per a tots!									\n
+																	\n
+		Tots els Germans Gonzalvo donem nom al camp					\n
+		on amb valor i entrega seguiràs triomfant					\n
+		celebrem tots junts,										\n
+		el Baix Vallès.												\n
+		Au Mollet, per cent anys i molts més!!!						\n
+																	\n
+		Celebrem tots junts,										\n
+		el Baix Vallès.												\n
+		Au Mollet, per cent anys i molt més!!!						\n
+		MOLLET !!!
+	</string>
+
+    <!-- Contactar Activity -->
+    <string-array name="seccio_contactar">
+        <item>Administració</item>
+        <item>Àrea esportiva </item>
+        <item>Comunicació</item>
+    </string-array>
+
+    <string-array name="info_contactar">
+        <item>  <![CDATA[
+                    <b>Secretaria:</b> Pol Chalaux              </br>
+                    <br><b>Atenció a les oficines</b> del camp municipal del Germans Gonzalvo en horari de dilluns a divendres de 17.30 hores  a 21.00 hores. </br>
+                ]]></item>
+        <item>  <![CDATA[
+                    <b>Coordinador Futbol 11:</b> Joaquim Ruiz
+                    <br><b>Coordinador Futbol 7:</b> Eric Lopez        </br>
+                    <br><b>Coordinador Femení:</b> José Manuel Aguilera     </br>
+                ]]></item>
+
+        <item>  <![CDATA[
+                    <b>Responsable de comunicació:</b> Alba Castilla
+                ]]></item>
+    </string-array>
+
+    <string-array name="email_contactar">
+        <item>info@cfmolletue.com</item>
+        <item>futbol@cfmolletue.com</item>
+        <item>premsa@cfmolletue.com</item>
+    </string-array>
+
+    <string-array name="tlf_contactar">
+        <item>695 17 03 23</item>
+        <item>677 62 43 26</item>
+        <item>625 53 88 87</item>
+    </string-array>
+    <string name="title_activity_link">LinkActivity</string>
+
+</resources>

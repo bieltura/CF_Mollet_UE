@@ -1,0 +1,128 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?attr/actionBarSize"
+    tools:context=".EquipsFragment">
+
+    <TextView
+        android:id="@+id/equipsSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:gravity="center_vertical"
+        android:text="@string/seleccionar" />
+
+    <Spinner
+        android:id="@+id/equipsSpinner"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_toEndOf="@+id/equipsSelect" />
+
+    <TextView
+        android:id="@+id/localTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/equipsSelect"
+        android:layout_margin="20dp"
+        android:gravity="start"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/visitantTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/equipsSelect"
+        android:layout_margin="20dp"
+        android:gravity="end"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/resultatTxt"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imgLocal"
+        android:layout_centerInParent="true"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgLocal"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/localTxt"
+        android:layout_margin="20dp"
+        android:contentDescription="@string/partits" />
+
+    <ImageView
+        android:id="@+id/imgVisitant"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/visitantTxt"
+        android:layout_margin="20dp"
+        android:contentDescription="@string/partits" />
+
+    <TextView
+        android:id="@+id/diaHoraTxt"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/resultatTxt"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textColor="@android:color/white"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/grupTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:maxLines="10"
+        android:padding="20dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="@dimen/fab_margin"
+        android:layout_marginEnd="@dimen/fab_margin"
+        android:src="@android:drawable/ic_dialog_map" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fcf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/map"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="@dimen/fab_margin"
+        android:layout_marginEnd="@dimen/fab_margin"
+        android:src="@drawable/fcf" />
+
+</RelativeLayout>

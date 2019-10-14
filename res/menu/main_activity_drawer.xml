@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_partits"
+            android:icon="@android:drawable/ic_menu_sort_by_size"
+            android:title="@string/partits" />
+        <item
+            android:id="@+id/nav_noticies"
+            android:icon="@android:drawable/ic_menu_mapmode"
+            android:title="@string/noticies" />
+        <item
+            android:id="@+id/nav_croniques"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="@string/croniques" />
+        <item
+            android:id="@+id/nav_himne"
+            android:icon="@android:drawable/ic_menu_save"
+            android:title="@string/himne" />
+    </group>
+
+    <item android:title="@string/comunicacio"
+        android:checkableBehavior="single">
+        <menu>
+            <item
+                android:id="@+id/nav_contactar"
+                android:icon="@android:drawable/ic_menu_send"
+                android:title="@string/contactar" />
+            <item
+                android:id="@+id/nav_compartir"
+                android:icon="@android:drawable/ic_menu_share"
+                android:title="@string/compartir" />
+        </menu>
+    </item>
+
+</menu>
